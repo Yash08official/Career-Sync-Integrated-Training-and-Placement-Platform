@@ -27,8 +27,28 @@ Our talented team of five members collaborated to bring this vision to life:
   + Khushi Makwane  
   + Yash Wasankar (it's me! 🎉)
 
-## PUBLICATION 📄
-We are proud to announce that our project has been published in the **International Journal for Research in Applied Science & Engineering Technology (IJRASET)**. As a result, we will receive **certificates of publication** from IJRASET, recognizing our contributions to the field of research. 🏆
+## Folder Structure
+
+📁 Career-Sync/
+│
+├── 📁 backend/
+│   ├── app.js           # Backend logic using Express.js
+│   ├── config.js        # Configurations for the backend
+│   ├── controllers/     # Controllers for handling requests
+│   └── routes/          # API routes
+│
+├── 📁 frontend/
+│   ├── src/
+│   │   ├── App.js       # Main React component
+│   │   ├── index.js     # Entry point for React
+│   │   ├── components/  # React components
+│   └── public/
+│       └── index.html   # Main HTML file
+│
+├── 📄 package.json       # Node.js dependencies and scripts
+├── 📄 package-lock.json  # Exact versions of Node.js dependencies
+├── 📄 StudentData.csv    # CSV file containing student data
+└── README.md             # Project documentation
 
 ## TECHNOLOGIES USED 💻
 Our project leverages cutting-edge technologies:
@@ -40,6 +60,7 @@ Our project leverages cutting-edge technologies:
 
 Utilizing the **MERN** (MongoDB, Express, React, Node) stack, we built a robust application, styled with Tailwind CSS, and ensured functionality with Postman API for testing our CRUD operations. 🔧
 
+
 ## GETTING STARTED 🚀
 To explore Career-Sync, follow these simple steps:
 
@@ -47,8 +68,44 @@ To explore Career-Sync, follow these simple steps:
 2. Install dependencies. 📦
 3. Run the application. ▶️
 
+### Clone the repository 🐙
+
+```bash
+git clone https://github.com/your-username/career-sync.git
+```
+#### Navigate to the project folder
+```bash
+cd career-sync
+```
+#### Install backend dependencies 📦
+```bash
+cd backend
+npm install
+```
+#### Install frontend dependencies 📦
+```bash
+cd frontend
+npm install
+```
+#### Run the application ▶️
+For backend:
+```bash
+cd backend
+npm start
+```
+For frontend:
+```bash
+cd frontend
+npm start
+```
+
+## PUBLICATION 📄
+We are proud to announce that our project has been published in the **International Journal for Research in Applied Science & Engineering Technology (IJRASET)**. As a result, we will receive **certificates of publication** from IJRASET, recognizing our contributions to the field of research. 🏆
+
+
+
 ## LICENSE 📝
-Career-Sync is licensed under [license name].
+Career-Sync is licensed under [license].
 
 ## ACKNOWLEDGMENTS 🙏
 We extend our sincere gratitude to Prof. A. A. Bhuyar for their invaluable guidance and support throughout the project.
