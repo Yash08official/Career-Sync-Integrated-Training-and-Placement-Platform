@@ -29,6 +29,7 @@ Our talented team of five members collaborated to bring this vision to life:
 
 ## Folder Structure
 
+```bash
 📁 Career-Sync/
 │
 ├── 📁 backend/
@@ -49,7 +50,7 @@ Our talented team of five members collaborated to bring this vision to life:
 ├── 📄 package-lock.json  # Exact versions of Node.js dependencies
 ├── 📄 StudentData.csv    # CSV file containing student data
 └── README.md             # Project documentation
-
+```
 ## TECHNOLOGIES USED 💻
 Our project leverages cutting-edge technologies:
 
